@@ -1,0 +1,5 @@
+mode_code,mode_name,kg_co2e_per_tonne_km,source
+ROAD,Road HGV,0.1,DEFRA GHG Conversion Factors 2025
+RAIL,Rail Freight,0.028,DEFRA GHG Conversion Factors 2025
+SEA,Sea Container,0.016,DEFRA GHG Conversion Factors 2025
+AIR,Air Freight,0.602,DEFRA GHG Conversion Factors 2025

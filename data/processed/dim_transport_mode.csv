@@ -1,0 +1,5 @@
+mode_code,mode_name,kg_co2e_per_tonne_km,relative_cost_index,avg_speed_kmh,suitable_for_regions,defra_source
+ROAD,Road (HGV),0.1,1.0,80,"DOMESTIC,EUROPEAN",DEFRA GHG Conversion Factors 2025
+RAIL,Rail (Freight),0.028,0.7,60,EUROPEAN,DEFRA GHG Conversion Factors 2025
+SEA,Sea (Container),0.016,0.4,35,"EUROPEAN,INTERCONTINENTAL",DEFRA GHG Conversion Factors 2025
+AIR,Air Freight,0.602,8.5,800,INTERCONTINENTAL,DEFRA GHG Conversion Factors 2025

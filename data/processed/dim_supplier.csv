@@ -1,0 +1,9 @@
+supplier_id,supplier_name,country_of_origin,region,primary_transport,secondary_transport,lead_time_min_days,lead_time_max_days,lead_time_avg_days,lead_time_std_days,lead_time_distribution,spike_probability,reliability_score,payment_terms_days,is_active
+SUP-001,BritGoods Ltd,United Kingdom,DOMESTIC,ROAD,,3,7,4.5,1.0,normal,0.02,0.96,30,True
+SUP-002,EuroFast GmbH,Germany,EUROPEAN,ROAD,RAIL,7,12,9.0,1.5,normal,0.05,0.93,30,True
+SUP-003,AsiaSource Co,China,INTERCONTINENTAL,SEA,AIR,18,35,24.0,4.5,lognormal,0.15,0.78,60,True
+SUP-004,IndiaManufact Pvt,India,INTERCONTINENTAL,SEA,AIR,20,32,25.0,4.0,lognormal,0.13,0.8,60,True
+SUP-005,NordicSupply AS,Sweden,EUROPEAN,ROAD,SEA,8,14,10.5,1.8,normal,0.04,0.91,30,True
+SUP-006,MedTrade SRL,Italy,EUROPEAN,ROAD,,10,18,13.0,2.2,normal,0.06,0.85,60,True
+SUP-007,USBrands Inc,United States,INTERCONTINENTAL,AIR,SEA,14,28,19.0,4.0,lognormal,0.12,0.76,90,True
+SUP-008,LocalPack Ltd,United Kingdom,DOMESTIC,ROAD,,2,5,3.0,0.8,normal,0.01,0.98,14,True

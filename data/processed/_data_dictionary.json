@@ -1,0 +1,110 @@
+{
+  "dim_product.csv": {
+    "rows": 50,
+    "columns": [
+      "product_id",
+      "product_name",
+      "category_code",
+      "category_name",
+      "unit_cost_gbp",
+      "unit_price_gbp",
+      "gross_margin_pct",
+      "weight_kg",
+      "min_order_qty",
+      "shelf_life_days",
+      "is_active",
+      "abc_class",
+      "service_level_target"
+    ]
+  },
+  "dim_supplier.csv": {
+    "rows": 8,
+    "columns": [
+      "supplier_id",
+      "supplier_name",
+      "country_of_origin",
+      "region",
+      "primary_transport",
+      "secondary_transport",
+      "lead_time_min_days",
+      "lead_time_max_days",
+      "lead_time_avg_days",
+      "lead_time_std_days",
+      "lead_time_distribution",
+      "spike_probability",
+      "reliability_score",
+      "payment_terms_days",
+      "is_active"
+    ]
+  },
+  "dim_warehouse.csv": {
+    "rows": 3,
+    "columns": [
+      "warehouse_id",
+      "warehouse_name",
+      "location",
+      "type",
+      "capacity_pallets",
+      "monthly_cost_gbp",
+      "latitude",
+      "longitude",
+      "is_active"
+    ]
+  },
+  "dim_transport_mode.csv": {
+    "rows": 4,
+    "columns": [
+      "mode_code",
+      "mode_name",
+      "kg_co2e_per_tonne_km",
+      "relative_cost_index",
+      "avg_speed_kmh",
+      "suitable_for_regions",
+      "defra_source"
+    ]
+  },
+  "bridge_supplier_product.csv": {
+    "rows": 60,
+    "columns": [
+      "product_id",
+      "supplier_id",
+      "is_primary"
+    ]
+  },
+  "fact_purchase_orders.csv": {
+    "rows": 996,
+    "columns": [
+      "order_id",
+      "product_id",
+      "supplier_id",
+      "warehouse_id",
+      "quantity_ordered",
+      "unit_cost_gbp",
+      "total_cost_gbp",
+      "order_date",
+      "expected_delivery_date",
+      "actual_delivery_date",
+      "lead_time_days",
+      "transport_mode",
+      "weight_kg_total",
+      "is_urgent_order",
+      "order_status"
+    ]
+  },
+  "fact_inventory_snapshots.csv": {
+    "rows": 1200,
+    "columns": [
+      "snapshot_date",
+      "product_id",
+      "warehouse_id",
+      "stock_on_hand",
+      "stock_cover_days",
+      "avg_daily_demand",
+      "is_stock_out",
+      "is_slow_mover",
+      "is_at_risk",
+      "stock_value_gbp",
+      "abc_class"
+    ]
+  }
+}

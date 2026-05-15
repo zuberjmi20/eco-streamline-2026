@@ -1,0 +1,4 @@
+warehouse_id,warehouse_name,location,type,capacity_pallets,monthly_cost_gbp,latitude,longitude,is_active
+WH-001,Coventry DC,Coventry,PRIMARY_DC,2000,18000,52.4068,-1.5197,True
+WH-002,Manchester Hub,Manchester,REGIONAL_HUB,800,7500,53.4808,-2.2426,True
+WH-003,Bristol Hub,Bristol,REGIONAL_HUB,600,6000,51.4545,-2.5879,True

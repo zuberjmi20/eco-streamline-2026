@@ -1,0 +1,11 @@
+origin_country,destination,transport_mode,distance_km
+China,UK,SEA,19500
+China,UK,AIR,9200
+India,UK,SEA,11000
+India,UK,AIR,6700
+United States,UK,AIR,5500
+United States,UK,SEA,6800
+Germany,UK,ROAD,1100
+Sweden,UK,ROAD,1400
+Italy,UK,ROAD,1800
+United Kingdom,UK,ROAD,250
