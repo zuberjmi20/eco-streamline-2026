@@ -1,0 +1,51 @@
+product_id,product_name,category_name,abc_class,supplier_id,recommended_mode,green_decision_made,avg_daily_demand,mean_demand_during_lt,lt_avg_simulated,lt_p90_days,lt_p95_days,lt_spike_events_pct,safety_stock_current,safety_stock_optimised,rop_current,rop_optimised,stockout_prob_current,stockout_prob_optimised,service_level_target,service_level_achieved,safety_stock_value_current,safety_stock_value_optimised,working_capital_saved_gbp,working_capital_released,annual_holding_cost_curr,annual_holding_cost_opt,carbon_saving_vs_air_kg,stockout_improvement_pct
+PRD-00001,Premium Kitchen Roll 6-Pack,Household Essentials,B,SUP-006,ROAD,False,11.44,148.7,13.6,17,18,4.8,68,68,217,217,0.0953,0.0953,0.9,0.9047,0.0,0,0.0,0.0,84.15,84.15,0.0,0.0
+PRD-00002,Aluminium Foil 30m Roll,Household Essentials,C,SUP-006,ROAD,False,6.96,90.5,13.6,17,19,5.1,45,34,136,125,0.0873,0.1416,0.85,0.8584,35.53,0,35.53,35.53,36.34,27.45,0.0,-62.2
+PRD-00003,Cling Film 100m,Household Essentials,B,SUP-006,ROAD,False,12.12,157.5,13.5,17,18,4.6,71,70,229,228,0.0924,0.0953,0.9,0.9047,4.39,0,4.39,4.39,77.92,76.82,0.0,-3.1
+PRD-00004,Bin Bags 40L 50-Pack,Household Essentials,A,SUP-006,ROAD,False,8.3,107.9,13.5,17,18,4.4,50,67,158,175,0.0909,0.0475,0.95,0.9525,0.0,0,0.0,0.0,155.5,208.37,0.0,47.7
+PRD-00005,Washing Up Liquid 500ml,Household Essentials,B,SUP-002,ROAD,False,9.52,85.7,9.3,11,12,4.8,42,41,128,127,0.0911,0.0955,0.9,0.9045,5.61,0,5.61,5.61,58.91,57.5,0.0,-4.8
+PRD-00006,Dishwasher Tablets 60-Pack,Household Essentials,B,SUP-006,ROAD,False,7.18,93.4,13.5,17,18,4.7,44,43,138,137,0.0899,0.0944,0.9,0.9056,7.74,0,7.74,7.74,85.14,83.2,0.0,-5.0
+PRD-00007,Kitchen Cleaner Spray 750ml,Household Essentials,A,SUP-001,ROAD,False,9.16,41.2,4.6,6,6,0.9,25,31,67,73,0.0736,0.0461,0.95,0.9539,0.0,0,0.0,0.0,65.25,80.91,0.0,37.4
+PRD-00008,Toilet Cleaner 750ml,Household Essentials,C,SUP-008,ROAD,False,6.16,18.5,3.0,4,4,0.4,14,9,33,28,0.0606,0.1266,0.85,0.8734,18.75,0,18.75,18.75,13.12,8.44,0.0,-108.9
+PRD-00009,Bathroom Cleaner 500ml,Household Essentials,B,SUP-001,ROAD,False,10.96,49.3,4.6,6,6,1.0,29,26,79,76,0.0772,0.0916,0.9,0.9084,14.49,0,14.49,14.49,35.02,31.39,0.0,-18.7
+PRD-00010,Multi-Surface Wipes 80-Pack,Household Essentials,C,SUP-006,ROAD,False,8.36,108.7,13.6,17,19,5.1,52,40,161,149,0.0917,0.1415,0.85,0.8585,32.28,0,32.28,32.28,34.97,26.9,0.0,-54.3
+PRD-00011,Sponge Scourers 10-Pack,Household Essentials,A,SUP-006,ROAD,False,7.53,97.9,13.6,17,18,4.8,47,63,145,161,0.0893,0.0466,0.95,0.9534,0.0,0,0.0,0.0,153.81,206.17,0.0,47.8
+PRD-00012,Paper Towels 12-Roll,Household Essentials,A,SUP-001,ROAD,False,12.47,56.1,4.6,6,6,1.0,34,42,91,99,0.0712,0.0458,0.95,0.9542,0.0,0,0.0,0.0,70.72,87.36,0.0,35.7
+PRD-00013,Rubber Gloves Medium Pair,Household Essentials,A,SUP-006,ROAD,False,10.66,138.6,13.6,17,18,4.9,64,87,203,226,0.0909,0.0483,0.95,0.9517,0.0,0,0.0,0.0,151.52,205.97,0.0,46.9
+PRD-00014,Oven Cleaner 300ml,Household Essentials,A,SUP-002,ROAD,False,12.8,115.2,9.3,11,12,4.7,54,73,170,189,0.0922,0.0474,0.95,0.9526,0.0,0,0.0,0.0,100.71,136.15,0.0,48.6
+PRD-00015,Drain Unblocker 500ml,Household Essentials,C,SUP-002,ROAD,False,9.44,85.0,9.3,11,12,4.5,41,33,126,118,0.0927,0.1398,0.85,0.8602,19.6,0,19.6,19.6,25.11,20.21,0.0,-50.8
+PRD-00016,Moisturising Hand Cream 100ml,Personal Care,B,SUP-005,ROAD,False,9.85,103.5,10.8,13,14,4.2,48,46,152,150,0.0846,0.0917,0.9,0.9083,8.44,0,8.44,8.44,50.64,48.53,0.0,-8.4
+PRD-00017,Daily Shampoo 400ml,Personal Care,A,SUP-005,ROAD,False,6.31,66.3,10.8,13,14,4.2,32,42,99,109,0.0855,0.0465,0.95,0.9535,0.0,0,0.0,0.0,112.88,148.16,0.0,45.6
+PRD-00018,Conditioner 400ml,Personal Care,A,SUP-002,ROAD,False,5.64,50.8,9.3,11,12,4.8,26,34,77,85,0.0877,0.0456,0.95,0.9544,0.0,0,0.0,0.0,104.91,137.19,0.0,48.0
+PRD-00019,Body Lotion 250ml,Personal Care,C,SUP-003,SEA,False,6.82,163.6,26.2,35,41,10.0,92,78,256,242,0.1124,0.1466,0.85,0.8534,34.3,0,34.3,34.3,56.35,47.78,4623.64,-30.4
+PRD-00020,Shower Gel 500ml,Personal Care,A,SUP-005,ROAD,False,10.3,108.1,10.8,13,14,4.2,49,65,158,174,0.0925,0.0472,0.95,0.9528,0.0,0,0.0,0.0,97.63,129.51,0.0,49.0
+PRD-00021,Deodorant Roll-On 50ml,Personal Care,A,SUP-005,ROAD,False,7.69,80.7,10.8,13,14,4.2,38,50,119,131,0.0855,0.0456,0.95,0.9544,0.0,0,0.0,0.0,94.62,124.5,0.0,46.7
+PRD-00022,Facial Cleanser 150ml,Personal Care,C,SUP-002,ROAD,False,5.58,50.2,9.3,11,12,4.4,26,19,77,70,0.0803,0.137,0.85,0.863,18.62,0,18.62,18.62,17.29,12.64,0.0,-70.6
+PRD-00023,Lip Balm SPF15,Personal Care,B,SUP-005,ROAD,False,9.04,94.9,10.8,13,14,4.5,44,43,139,138,0.0868,0.0914,0.9,0.9086,4.24,0,4.24,4.24,46.64,45.58,0.0,-5.3
+PRD-00024,Hand Sanitiser 500ml,Personal Care,B,SUP-005,ROAD,False,7.12,74.8,10.8,13,14,4.2,36,35,111,110,0.0877,0.0925,0.9,0.9075,6.1,0,6.1,6.1,54.9,53.38,0.0,-5.5
+PRD-00025,Toothpaste Whitening 100ml,Personal Care,A,SUP-003,SEA,False,9.65,231.6,26.2,36,41,10.2,129,198,361,430,0.1134,0.0495,0.95,0.9505,0.0,0,0.0,0.0,266.38,408.87,1079.98,56.3
+PRD-00026,Mouthwash Fresh Mint 500ml,Personal Care,A,SUP-002,ROAD,False,7.4,66.6,9.4,11,13,5.0,34,45,101,112,0.0879,0.0478,0.95,0.9522,0.0,0,0.0,0.0,101.66,134.55,0.0,45.6
+PRD-00027,Cotton Buds 200-Pack,Personal Care,A,SUP-003,SEA,False,6.54,157.0,26.2,36,41,10.5,88,131,246,289,0.1136,0.0487,0.95,0.9513,0.0,0,0.0,0.0,245.08,364.84,795.56,57.1
+PRD-00028,Premium Ground Coffee 250g,Food and Beverage,A,SUP-005,ROAD,False,11.59,121.7,10.8,13,14,4.5,56,74,178,196,0.0863,0.0476,0.95,0.9524,0.0,0,0.0,0.0,108.36,143.19,0.0,44.8
+PRD-00029,English Breakfast Tea 80-Pack,Food and Beverage,C,SUP-002,ROAD,False,6.03,54.2,9.3,11,12,4.7,28,21,83,76,0.0815,0.1338,0.85,0.8662,25.9,0,25.9,25.9,25.9,19.43,0.0,-64.2
+PRD-00030,Instant Hot Chocolate 400g,Food and Beverage,A,SUP-001,ROAD,False,11.99,54.0,4.6,6,6,0.9,32,41,86,95,0.0798,0.0464,0.95,0.9536,0.0,0,0.0,0.0,58.48,74.93,0.0,41.9
+PRD-00031,Organic Honey 340g,Food and Beverage,B,SUP-005,ROAD,False,8.69,91.2,10.8,13,14,4.3,42,41,134,133,0.0858,0.0913,0.9,0.9087,5.48,0,5.48,5.48,57.54,56.17,0.0,-6.4
+PRD-00032,Extra Virgin Olive Oil 500ml,Food and Beverage,C,SUP-005,ROAD,False,12.8,134.4,10.8,13,14,4.2,60,47,195,182,0.0886,0.1417,0.85,0.8583,20.8,0,20.8,20.8,24.0,18.8,0.0,-59.9
+PRD-00033,Apple Cider Vinegar 500ml,Food and Beverage,A,SUP-001,ROAD,False,10.84,48.8,4.6,6,6,1.0,29,38,78,87,0.0804,0.0444,0.95,0.9556,0.0,0,0.0,0.0,61.62,80.75,0.0,44.8
+PRD-00034,Protein Granola 500g,Food and Beverage,C,SUP-006,ROAD,False,7.44,96.7,13.6,17,18,4.9,46,35,143,132,0.0867,0.1422,0.85,0.8578,28.38,0,28.38,28.38,29.67,22.57,0.0,-64.0
+PRD-00035,Mixed Nuts 200g,Food and Beverage,A,SUP-006,ROAD,False,10.76,139.9,13.5,17,19,5.0,65,88,205,228,0.0938,0.048,0.95,0.952,0.0,0,0.0,0.0,143.97,194.92,0.0,48.8
+PRD-00036,Herbal Tea Variety 40-Pack,Food and Beverage,B,SUP-002,ROAD,False,8.19,73.7,9.3,11,12,4.8,36,35,110,109,0.0883,0.0938,0.9,0.9062,6.22,0,6.22,6.22,55.98,54.42,0.0,-6.2
+PRD-00037,Sparkling Water 12x500ml,Food and Beverage,B,SUP-006,ROAD,False,8.69,112.9,13.6,17,18,4.9,54,53,167,166,0.0896,0.0939,0.9,0.9061,6.06,0,6.06,6.06,81.81,80.3,0.0,-4.8
+PRD-00038,Luxury Bath Gift Set,Seasonal and Gifting,A,SUP-007,AIR,False,3.62,68.9,20.4,28,32,8.5,42,58,111,127,0.0959,0.0471,0.95,0.9529,0.0,0,0.0,0.0,198.87,274.63,0.0,50.9
+PRD-00039,Premium Scented Candle Set,Seasonal and Gifting,A,SUP-007,AIR,False,2.82,53.6,20.5,28,32,9.2,33,46,87,100,0.0981,0.0464,0.95,0.9536,0.0,0,0.0,0.0,226.79,316.13,0.0,52.7
+PRD-00040,Artisan Chocolate Selection Box,Seasonal and Gifting,A,SUP-006,ROAD,False,8.85,115.0,13.6,17,18,4.5,53,70,169,186,0.0888,0.0471,0.95,0.9529,0.0,0,0.0,0.0,84.27,111.3,0.0,47.0
+PRD-00041,Spa Pamper Set,Seasonal and Gifting,A,SUP-004,SEA,False,3.6,89.9,27.0,36,42,14.4,48,72,138,162,0.1051,0.0465,0.95,0.9535,0.0,0,0.0,0.0,216.36,324.54,375.87,55.8
+PRD-00042,Aromatherapy Diffuser Kit,Seasonal and Gifting,A,SUP-006,ROAD,False,2.82,36.7,13.5,17,18,4.8,20,26,57,63,0.0813,0.0447,0.95,0.9553,0.0,0,0.0,0.0,101.7,132.21,0.0,45.0
+PRD-00043,Premium Notebook and Pen Set,Seasonal and Gifting,A,SUP-007,AIR,False,7.07,134.4,20.4,27,32,8.5,77,109,212,244,0.1037,0.0489,0.95,0.9511,0.0,0,0.0,0.0,192.5,272.5,0.0,52.8
+PRD-00044,Personalised Mug Gift Box,Seasonal and Gifting,A,SUP-004,SEA,False,2.73,68.3,27.0,36,41,15.1,37,55,106,124,0.1044,0.0457,0.95,0.9543,0.0,0,0.0,0.0,252.16,374.83,690.72,56.2
+PRD-00045,Festive Reed Diffuser,Seasonal and Gifting,A,SUP-007,AIR,False,3.3,62.7,20.5,28,32,8.7,38,54,101,117,0.1001,0.0456,0.95,0.9544,0.0,0,0.0,0.0,172.42,245.02,0.0,54.4
+PRD-00046,Professional Floor Cleaner 5L,Cleaning Products,B,SUP-008,ROAD,False,8.54,25.6,3.1,4,4,0.4,19,15,45,41,0.0577,0.0875,0.9,0.9125,26.28,0,26.28,26.28,31.21,24.64,0.0,-51.6
+PRD-00047,Industrial Degreaser 2L,Cleaning Products,C,SUP-002,ROAD,False,6.44,58.0,9.3,11,12,4.9,29,23,87,81,0.0882,0.1322,0.85,0.8678,21.9,0,21.9,21.9,26.46,20.99,0.0,-49.9
+PRD-00048,Antibacterial Surface Spray 1L,Cleaning Products,B,SUP-008,ROAD,False,12.16,36.5,3.0,4,4,0.3,25,22,62,59,0.0665,0.0846,0.9,0.9154,14.61,0,14.61,14.61,30.44,26.79,0.0,-27.2
+PRD-00049,Laundry Detergent 2.5kg,Cleaning Products,A,SUP-008,ROAD,False,10.11,30.3,3.0,4,4,0.3,22,26,53,57,0.0637,0.0463,0.95,0.9537,0.0,0,0.0,0.0,58.24,68.83,0.0,27.3
+PRD-00050,Fabric Softener 1.5L,Cleaning Products,A,SUP-001,ROAD,False,10.19,45.9,4.6,6,6,0.8,28,34,74,80,0.0698,0.0468,0.95,0.9532,0.0,0,0.0,0.0,69.65,84.57,0.0,33.0
