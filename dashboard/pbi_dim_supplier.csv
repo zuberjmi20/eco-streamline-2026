@@ -1,9 +1,0 @@
-supplier_id,supplier_name,country_of_origin,region,primary_transport,lead_time_avg_days,lead_time_min_days,lead_time_max_days,spike_probability,reliability_score,payment_terms_days,reliability_band
-SUP-001,BritGoods Ltd,United Kingdom,DOMESTIC,ROAD,4.5,3,7,0.02,0.96,30,High (>90%)
-SUP-002,EuroFast GmbH,Germany,EUROPEAN,ROAD,9.0,7,12,0.05,0.93,30,High (>90%)
-SUP-003,AsiaSource Co,China,INTERCONTINENTAL,SEA,24.0,18,35,0.15,0.78,60,Low (<80%)
-SUP-004,IndiaManufact Pvt,India,INTERCONTINENTAL,SEA,25.0,20,32,0.13,0.8,60,Low (<80%)
-SUP-005,NordicSupply AS,Sweden,EUROPEAN,ROAD,10.5,8,14,0.04,0.91,30,High (>90%)
-SUP-006,MedTrade SRL,Italy,EUROPEAN,ROAD,13.0,10,18,0.06,0.85,60,Medium (80-90%)
-SUP-007,USBrands Inc,United States,INTERCONTINENTAL,AIR,19.0,14,28,0.12,0.76,90,Low (<80%)
-SUP-008,LocalPack Ltd,United Kingdom,DOMESTIC,ROAD,3.0,2,5,0.01,0.98,14,High (>90%)
