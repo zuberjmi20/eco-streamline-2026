@@ -342,7 +342,7 @@ def generate_purchase_orders(products_df, suppliers_df, sup_prod_df):
         while current_date <= SIM_END:
             if current_date >= next_order_date:
                 cycle       = order_cycle[abc]
-                avg_daily   = (50 / row["unit_price_gbp"]) * abc_scale[abc]
+                avg_daily   = (300 / row["unit_price_gbp"]) * abc_scale[abc]
                 qty_needed  = int(avg_daily * cycle * SEASONAL_MULTIPLIERS[current_date.month])
                 qty_ordered = max(moq, round(qty_needed / moq) * moq)
 
@@ -419,7 +419,7 @@ def generate_inventory_snapshots(products_df, suppliers_df, sup_prod_df, orders_
                 (orders_df["order_status"] == "DELIVERED")
             ]["quantity_ordered"].sum()
 
-            avg_daily    = (50 / prow["unit_price_gbp"]) * abc_scale[abc]
+            avg_daily    = (300 / prow["unit_price_gbp"]) * abc_scale[abc]
             days_elapsed = (snap_date - SIM_START).days
             seas_list    = [
                 SEASONAL_MULTIPLIERS[(SIM_START + timedelta(d)).month]
@@ -428,7 +428,8 @@ def generate_inventory_snapshots(products_df, suppliers_df, sup_prod_df, orders_
             seas_avg     = float(np.mean(seas_list))
             cum_demand   = int(avg_daily * days_elapsed * seas_avg * np.random.normal(1.0, 0.08))
 
-            initial_stock = int(avg_daily * 60)
+            initial_stock_days = {"A": 90, "B": 60, "C": 200}
+            initial_stock = int(avg_daily * initial_stock_days[abc])
             stock_on_hand = max(0, initial_stock + int(delivered) - cum_demand)
             avg_daily_now = avg_daily * SEASONAL_MULTIPLIERS[snap_date.month]
             cover_days    = stock_on_hand / max(avg_daily_now, 0.1)
@@ -438,7 +439,7 @@ def generate_inventory_snapshots(products_df, suppliers_df, sup_prod_df, orders_
             is_at_risk    = bool(cover_days < 14 and abc == "A" and not is_stock_out)
 
             # Simulate 7% A-class stock-out problem in peak months
-            if abc == "A" and snap_date.month in [11, 12] and random.random() < 0.08:
+            if abc == "A" and snap_date.month in [4,5,6,7,8,9,11,12] and random.random() < 0.09:
                 is_stock_out  = True
                 stock_on_hand = 0
 
