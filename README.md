@@ -189,5 +189,5 @@ Built as a freelance consulting portfolio piece demonstrating end-to-end data tr
 
 ---
 
-*Built by: Zubair | GitHub: [@zuberjmi20](https://github.com/zuberjmi20)*
+*Built by:Mohd Zuber Khan| GitHub: [@zuberjmi20](https://github.com/zuberjmi20)*
 *All financial figures are based on synthetic data modelling the Apex Distribution UK business scenario.*
